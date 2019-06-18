@@ -5,3 +5,32 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+html{
+    box-sizing: border-box;
+    font-size:10px;
+}
+.nav-menu-container{
+    position:fixed;
+    background:#fff;
+    width:51%;
+}
+
+.nav-menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.logo-image-wrapper{
+    width:15%;
+}
+
+.logo-image-wrapper >img{
+    width:100%;
+}
+
+.menu-container{
+    width:15%;
+}
