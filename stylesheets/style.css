@@ -33,7 +33,7 @@ html {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 4%;
 }
 .logo-image-wrapper {
   width: 15%;
@@ -56,29 +56,28 @@ html {
 
 .header {
   width: 100%;
- height: auto;
+  height: auto;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content:flex-start;
+  align-content: flex-start;
 }
 .talking {
   order: 3;
   width: 80%;
-
 }
 .talking > img {
-  width:100%;
-  margin:10% auto;
+  width: 100%;
+  margin: 10% auto;
 }
 .h1-container {
   order: -1;
   width: 60%;
   margin: 7% 20% 3% 0;
-  text-align:left;
-  padding:0;
+  text-align: left;
+  padding: 0;
 }
 
 .h1 {
@@ -87,88 +86,107 @@ html {
 }
 
 .paragraph {
- 
   order: 0;
-  width:85%;
+  width: 85%;
   font-size: 3rem;
-  padding:0 7%;
-  text-align:center;
+  padding: 0 7%;
+  text-align: center;
 }
 
-.input-user-information{
-    width:70%;
-    height:auto;
-    margin:6% auto;
-    border-radius: 5px;
-    border:2px dotted #000;
-    background:#fff;
-    padding:6% 7% ;
+.input-user-information {
+  width: 70%;
+  height: auto;
+  margin: 6% auto;
+  border-radius: 5px;
+  border: 2px dotted #000;
+  background: #fff;
+  padding: 6% 7%;
 }
-.input-user-information .email{
-    border: none;
-    background:#fff;
-    font-size:3rem;
-    line-height: 100%;
-    display:block;
-}
-
-.input-user-information button{
-    border: none;
-    background:#fff;
-    font-size:3rem;
-    line-height: 100%;
-    border:none;
-    outline:none;
-    display:block;
-    color:#fff;
-    padding:0 20%;
-    text-align:center;
+.input-user-information .email {
+  border: none;
+  background: #fff;
+  font-size: 3rem;
+  line-height: 100%;
+  display: block;
 }
 
-.button-purple, .button-purple button{
-    background:#192592;
-    text-align:center;
-}
-.input-user-information .button-purple button{
-  text-align:center;
-  margin:0 auto;
-  
-}
-
-.button-get
-{margin:0;}
-.center{
-    margin:0 auto;
-    height:auto;
-    width:50%;
-    padding:0;
-    font-size:3rem;
+.input-user-information button {
+  border: none;
+  background: #fff;
+  font-size: 3rem;
+  line-height: 100%;
+  border: none;
+  outline: none;
+  display: block;
+  color: #fff;
+  padding: 0 28%;
+  text-align: center;
 }
 
-.draws{
-    order:4;
-    background:#F4F3F4;
-    padding-top:8%;
+.button-purple,
+.button-purple button {
+  background: #192592;
+  text-align: center;
+}
+.input-user-information .button-purple button {
+  text-align: center;
+  margin: 0 auto;
 }
 
-.h2{
-    font-size:6rem;
-    font-weight: 600;
-    text-align:center;
+.button-get {
+  margin: 0;
+}
+.center {
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  padding: 0;
+  font-size: 3rem;
 }
 
-.p-milions{
-    margin:5% auto;
-    padding:0 auto;
-    width:87%;
-    font-size:4rem;
-    text-align:center;
+.draws {
+  order: 4;
+  background: #f4f3f4;
+  padding-top: 8%;
 }
 
-.logos{
-  width:80%
+.h2 {
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-.why button{
-  color:#000;
+.p-milions {
+  margin: 5% auto;
+  padding: 0 auto;
+  width: 87%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.logos {
+  width: 60%;
+  max-width:100%
+}
+
+.why button {
+  color: #192592;
+}
+
+.why {
+  border: 2px solid #192592;
+}
+
+.logos img{
+  width:100%;
+  border-bottom:1px solid #5b5e6d;
+}
+
+@media (min-width:768px) and (max-width:960px){
+  .super-container {
+    float: left;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+  }
 }
